@@ -1,9 +1,3 @@
-/*
- * ascii_to_bcd.asm
- *
- *  Created: 1/27/2023 5:29:31 AM
- *   Author: user
- */ 
 
  .include "M32DEF.INC"
  .org 00

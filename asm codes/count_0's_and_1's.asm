@@ -1,0 +1,14 @@
+.INCLUDE "M32DEF.INC"
+.ORG 00
+LDI R16,0X34  /* 00110100 */
+LDI R17,0  /*To count number of 1's*/ 
+LDI R18,0  /*To count number of 0's*/ 
+LDI R19,8  
+D1: ROR R16
+BRCC L1
+INC R17
+RJMP L2
+L1: INC R18
+L2: DEC R19
+BRNE D1
+END: JMP END
