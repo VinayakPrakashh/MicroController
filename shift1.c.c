@@ -7,7 +7,6 @@
 
 
 #include <avr/io.h>
-
 int main(void)
 {
    unsigned char i,y=0xAA;
