@@ -10,7 +10,7 @@ int main(void)
     {
         if (y & 0x01)
             one++;
-        y=y>>1;
+       
         else
             zero++;
         y = y >> 1;
